@@ -1,0 +1,68 @@
+/* Estilo geral */
+body {
+  background-color: #141414;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  margin-top: 80px; /* abaixa o título */
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  margin-bottom: 30px;
+}
+
+/* Perfis */
+.profiles ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+}
+
+.profile figure {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.profile img:hover {
+  transform: scale(1.1);
+}
+
+.profile figcaption {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Perfil selecionado no catálogo */
+.perfil-selecionado {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.perfil-selecionado img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
