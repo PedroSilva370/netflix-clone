@@ -50,7 +50,7 @@ project/
 1. Clone the repository:
 ```
 
-git clone [https://github.com/your-username/your-repository.git](https://github.com/your-username/your-repository.git)
+git clone [https://github.com/PedroSilva370/Netflix-clone/tree/main](https://github.com/PedroSilva370/Netflix-clone/tree/main)
 
 ```
 
